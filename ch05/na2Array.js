@@ -57,4 +57,12 @@ var arr9 = arr3.splice(0,2,0,10);
 console.log("arr3", arr3);
 console.log(arr9);
 
-
+console.log("------------位置操作方法---------------");
+var indexArr = [0,1,2,3,4,5,4,3,2,1,0];
+console.log("indexArr.length", indexArr.length);
+console.log("indexArr.indexOf(4):",indexArr.indexOf(4));
+console.log("indexArr.lastIndexOf(4):",indexArr.lastIndexOf(4));
+console.log(indexArr.indexOf(0,-2));
+console.log(indexArr.indexOf(0,-13));
+console.log(indexArr.lastIndexOf(0,-2));
+console.log(indexArr.lastIndexOf(0,-13));
