@@ -40,9 +40,21 @@ var person = [person1, person2];
 person.sort();
 console.log("1" > "-1");
 console.log("---------数组操作方法----------------");
-var arr3 = [1, 2, 3];
+var arr3 = [1, 2, 3, 4, 5, 6, 7];
 var arr4 = arr3.concat();
-arr3.push(5);
+// arr3.push(5);
 console.log(arr3);
 console.log(arr4);
+var arr5 = arr3.slice(3);
+var arr6 = arr3.slice(4,5);
+console.log(arr5);
+console.log(arr6);
+var arr7 = arr3.slice(-1,5);
+console.log("arr7", arr7);
+var arr8 = arr3.slice(-8, -2);//-8+7 = -1, -2+7=5
+console.log(arr8);
+var arr9 = arr3.splice(0,2,0,10);
+console.log("arr3", arr3);
+console.log(arr9);
+
 
