@@ -77,4 +77,3 @@ ECMAScript5添加了Date.now()方法，返回表示调用这个方法时的日�
     var start = Date.now();
     在不支持它的浏览器中，使用+操作符把Date对象转成字符串，也可以达到同样的目的
     var start = +new Date();
-
