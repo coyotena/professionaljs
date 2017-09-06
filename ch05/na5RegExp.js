@@ -10,3 +10,14 @@ var pattern3 = /.at/gi;
 //匹配所有".at"，不区分大小写
 var pattern4 = /\.at/gi;
 
+var exectext1 = "mom and dad and baby";
+var execpattern1 = /mom( and dad( and baby)?)?/gi;
+var execmatches = execpattern1.exec(exectext1);
+console.log(execmatches.index);
+console.log(execmatches.input);
+console.log(execmatches[0]);
+console.log(execmatches[1]);
+console.log(execmatches[2]);
+console.log(execmatches[3]);
+console.log(execmatches.lastIndex);
+console.log(execpattern1.lastIndex);
