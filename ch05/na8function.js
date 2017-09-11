@@ -1,6 +1,4 @@
-/**
- * Created by Administrator on 2017-9-8.
- */
+
 //需要在浏览器中运行，只是js文件，没有window对象
 window.color = "red";
 var o = {color: "blue"};

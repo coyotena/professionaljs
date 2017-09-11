@@ -1,6 +1,4 @@
-/**
- * Created by Administrator on 2017-9-7.
- */
+
 function createCom(propertyName) {
     return function (obj1, obj2) {
         console.log(obj1);
